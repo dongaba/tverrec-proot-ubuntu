@@ -28,6 +28,14 @@ echo "export LANG=ja_JP.UTF-8" >> ~/.bashrc
 echo 'export LANGUAGE="ja_JP:ja"' >> ~/.bashrc
 echo neofetch >> ~/.bashrc
 
+# Install PowerShell
+apt install dotnet-sdk-8.0 -y
+dotnet tool install --global PowerShell
+
+# Install TVerRec
+git clone https://github.com/dongaba/TVerRec.git
+chmod +x TVerRec/unix/*.sh
+
 # Setup password for root
 echo "Enter a password for root:"
 password
