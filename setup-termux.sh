@@ -1,3 +1,5 @@
+cd ~
+
 # Update Packages
 pkg update
 pkg upgrade -y
@@ -9,7 +11,6 @@ pkg install proot android-tools wget curl git openssh termux-am termux-api neofe
 termux-setup-storage
 
 # Correct 'storage/external-1' link
-cd ~
 if [ ! -d ~/storage/external-1 ]; then
   rm -rf ~/storage/external-1
   sd_mount_point=$(df -t fuse | grep storage | grep -v emulated | awk '{print $6}')
