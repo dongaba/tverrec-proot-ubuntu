@@ -47,4 +47,4 @@ echo ubuntu >> ~/.bashrc
 
 # Setup password for SSH
 echo "Enter a password for SSH:"
-password
+passwd
