@@ -10,9 +10,9 @@ termux-setup-storage
 
 # Correct 'storage/external-1' link
 cd ~
-rm -rf ./storage/external-1
+rm -rf ~/storage/external-1
 sd_mount_point=$(df -t fuse | grep storage | grep -v emulated | awk '{print $6}')
-ln -s "$sd_mount_point" ./storage/external-1
+ln -s "$sd_mount_point" ~/storage/external-1
 
 # Install Ubuntu
 proot-distro install ubuntu
