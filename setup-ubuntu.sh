@@ -38,4 +38,4 @@ chmod +x TVerRec/unix/*.sh
 
 # Setup password for root
 echo "Enter a password for root:"
-password
+passwd
