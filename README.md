@@ -24,7 +24,7 @@ pkg update
 pkg upgrade -y
 pkg install git -y
 git clone https://github.com/dongaba/tverrec-proot-ubuntu.git
-cd tverrec-proot-ubuntu.git
+cd tverrec-proot-ubuntu
 chmod +x setup-termux.sh
 ./setup-termux.sh
 ubuntu
@@ -37,7 +37,7 @@ apt-get update
 apt-get upgrade -y
 apt-get install git -y
 git clone https://github.com/dongaba/tverrec-proot-ubuntu.git
-cd tverrec-proot-ubuntu.git
+cd tverrec-proot-ubuntu
 chmod +x setup-ubuntu.sh
 ./setup-ubuntu.sh
 ```
