@@ -12,9 +12,9 @@ This tool supports Termux configuration and Ubuntu configuration.
 Android上にTermuxをインストールし、Termux内にUbuntuをインストールすることで動作。
 本ツールではTermuxの初期設定とUbuntuの初期設定をサポート。
 
-Tested with FireMax11.
+Tested with Fire Max 11 and Fire HD 10 Plus.
 
-FireMax11で検証。
+Fire Max 11とFire HD 10 Plusで検証。
 
 
 ## 1. Run on Termux
