@@ -31,7 +31,8 @@ echo neofetch > ~/.bashrc
 echo sshd >> ~/.bashrc
 
 # Setup X11 environment
-pkg install x11-repo termux-x11-nightly pulseaudio virglrenderer-android -y
+pkg install x11-repo -y
+pkg install termux-x11-nightly pulseaudio virglrenderer-android -y
 
 # Setup PulseAudio
 echo "load-module module-native-protocol-tcp auth-ip-acl=127.0.0.1; auth-anonymous=1" >> /data/data/com.termux/files/usr/etc/pulse/default.pa
