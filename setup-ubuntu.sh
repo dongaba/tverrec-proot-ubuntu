@@ -1,3 +1,5 @@
+cd ~
+
 # Update Packages
 apt-get update
 apt-get upgrade -y
@@ -33,7 +35,6 @@ apt install dotnet-sdk-8.0 -y
 dotnet tool install --global PowerShell
 
 # Install TVerRec
-cd ~
 git clone https://github.com/dongaba/TVerRec.git
 chmod +x TVerRec/unix/*.sh
 
